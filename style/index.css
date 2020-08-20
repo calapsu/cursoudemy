@@ -12,3 +12,24 @@
   height: 100vh;
   min-height: 600px;
 }
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+/* navegacion */
+
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+}
+.navigation a:hover {
+  color: #71b100;
+}
+.navigation a:last-of-type {
+  margin: 0;
+}
