@@ -1,3 +1,7 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
 /* Globales */
 .container {
   max-width: 1200px;
