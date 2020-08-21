@@ -5,6 +5,7 @@ html {
 body {
   font-family: "Lato", sans-serif;
   font-size: 1.6rem;
+  line-height: 1.5;
 }
 
 /* Globales */
@@ -29,6 +30,13 @@ h4 {
 .section {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+.center-text {
+  text-align: center;
 }
 
 /* header  */
@@ -74,10 +82,16 @@ h4 {
 }
 
 /* Iconos Nosotros */
+
 .us-icons {
   display: flex;
   justify-content: space-between;
 }
 .icon {
   flex-basis: calc(33.3% - 1rem);
+  text-align: center;
+}
+
+.icon h3 {
+  text-transform: uppercase;
 }
