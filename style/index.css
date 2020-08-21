@@ -13,7 +13,7 @@ body {
   margin: auto;
 }
 h1 {
-  font-size: 3.8rem;
+  font-size: 3.7rem;
 }
 h2 {
   font-size: 3.4rem;
@@ -23,6 +23,12 @@ h3 {
 }
 h4 {
   font-size: 2.6rem;
+}
+
+/* utilidades */
+.section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* header  */
@@ -43,7 +49,7 @@ h4 {
   color: #ffffff;
   padding-bottom: 2rem;
   max-width: 60rem;
-  line-height: 2;
+  line-height: 1.5;
 }
 .bar {
   display: flex;
@@ -65,4 +71,13 @@ h4 {
 }
 .navigation a:last-of-type {
   margin: 0;
+}
+
+/* Iconos Nosotros */
+.us-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  flex-basis: calc(33.3% - 1rem);
 }
