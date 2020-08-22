@@ -153,3 +153,21 @@ h4 {
   display: flex;
   justify-content: flex-end;
 }
+
+/* contacto Home */
+
+.contact-image {
+  background-image: url(../img/encuentra.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+}
+.content-contact {
+  flex: 1;
+  color: #ffffff;
+}
+.content-contact p {
+  font-size: 1.8rem;
+}
