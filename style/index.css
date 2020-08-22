@@ -1,5 +1,11 @@
 html {
+  box-sizing: border-box;
   font-size: 62.5%; /** Reset para REMS -62.5% = 10px de 16px **/
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -40,6 +46,27 @@ h4 {
 }
 .center-text {
   text-align: center;
+}
+.d-block {
+  display: block !important;
+}
+
+/* Botones */
+.button {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  display: inline-block;
+  margin-top: 3rem;
+  text-align: center;
+}
+.button-yellow {
+  background-color: #e08709;
+}
+.button-greend {
+  background-color: #71b100;
 }
 
 /* header  */
@@ -117,4 +144,12 @@ h4 {
 .ad-content h3,
 .ad-content p {
   margin: 0;
+}
+.price {
+  color: #71b100;
+  font-weight: 700;
+}
+.see-all {
+  display: flex;
+  justify-content: flex-end;
 }
