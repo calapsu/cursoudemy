@@ -184,3 +184,33 @@ h4 {
 .content-contact p {
   font-size: 1.8rem;
 }
+
+/* seccion inferior */
+.lower-section {
+  display: flex;
+  justify-content: space-between;
+}
+.lower-section .blog {
+  flex-basis: 60%;
+}
+.lower-section .testimonials {
+  flex-basis: calc(40% - 2rem);
+}
+.blog-entry {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.blog-entry:last-of-type {
+  margin-bottom: 0;
+}
+.blog-entry .imagen {
+  flex-basis: 40%;
+}
+.blog-entry .text-input {
+  flex-basis: calc(60% - 3rem);
+}
+.text-input h4 {
+  margin: 0;
+  line-height: 1.4;
+}
