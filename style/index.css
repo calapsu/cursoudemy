@@ -107,4 +107,14 @@ h4 {
 }
 .ad {
   flex-basis: calc(33.3% - 1rem);
+  border: 1px solid #b5b5b5;
+  background-color: #f5f5f5;
+}
+
+.ad-content {
+  padding: 2rem;
+}
+.ad-content h3,
+.ad-content p {
+  margin: 0;
 }
