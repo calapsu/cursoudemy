@@ -149,6 +149,19 @@ h4 {
   color: #71b100;
   font-weight: 700;
 }
+.icons-features {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icons-features li {
+  /* flex: 1; */
+  display: flex;
+}
+.icons-features li img {
+  margin-right: 2rem;
+}
 .see-all {
   display: flex;
   justify-content: flex-end;
