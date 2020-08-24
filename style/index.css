@@ -50,6 +50,9 @@ h4 {
 .d-block {
   display: block !important;
 }
+.content-centered {
+  max-width: 800px;
+}
 
 /* Botones */
 .button {
@@ -162,6 +165,8 @@ h4 {
   padding: 0;
   display: flex;
   justify-content: space-evenly;
+  flex: 1;
+  max-width: 500px;
 }
 .icons-features li {
   /* flex: 1; */
@@ -292,4 +297,11 @@ h4 {
   font-size: 2rem;
   margin: 0;
   padding: 1rem 0 3rem 0;
+}
+
+/* anuncio */
+.summary-property {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
