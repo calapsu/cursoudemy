@@ -39,12 +39,12 @@
   <main class="container section content-centered">
     <h2 class="fw-300 center-text">Llena el formulario de Contacto</h2>
 
-    <form action="">
+    <form class="contact" action="">
 
       <fieldset>
         <legend>Información Personal</legend>
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" placeholder="Tu Nombre">
+        <input class="name" type="text" id="nombre" placeholder="Tu Nombre">
 
         <label for="email">E-mail:</label>
         <input type="email" id="email" placeholder="Tu correo electronico" required>
@@ -74,11 +74,14 @@
         <legend>Contacto</legend>
 
         <p>Como desea ser Contactado:</p>
-        <label for="telefono">Teléfono</label>
-        <input type="radio" name="contacto" value="telefono" id="telefono">
 
-        <label for="correo">Teléfono</label>
-        <input type="radio" name="contacto" value="correo" id="correo">
+        <div class="contact-form">
+          <label for="telefono">Teléfono</label>
+          <input type="radio" name="contacto" value="telefono" id="telefono">
+
+          <label for="correo">E-mail</label>
+          <input type="radio" name="contacto" value="correo" id="correo">
+        </div>
 
         <p>si eligio Teléfono, elija la fecha y la hora</p>
         <label for="fecha">Fecha:</label>
